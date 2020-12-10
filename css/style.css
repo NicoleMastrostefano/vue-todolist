@@ -7,7 +7,6 @@
 body {
   height: 100vh;
   font-family: 'Nunito', sans-serif;
-
   width: 700px;
   background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm30-eye-19-a-wood_1_2.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=fc46e4c6a94fc3fade274fa6ad249f67);
   background-size: cover;
@@ -15,7 +14,7 @@ body {
 
 #root{
   width: 50%;
-	margin: 1em auto 3em;
+  margin: 1em auto 3em;
 	border: 1px solid #efefef;
   position: absolute;
   top:35%;
