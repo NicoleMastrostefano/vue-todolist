@@ -14,6 +14,7 @@
       </form>
       <ul>
         <li is="todo-item" v-for="(todo, index) in items" v-bind:title="todo.title" v-on:remove="items.splice(index, 1)">
+
         </li>
       </ul>
     </div>
