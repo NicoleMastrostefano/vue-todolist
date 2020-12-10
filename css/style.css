@@ -15,7 +15,7 @@ body {
 #root{
   width: 50%;
   margin: 1em auto 3em;
-	border: 1px solid #efefef;
+  border: 1px solid #efefef;
   position: absolute;
   top:35%;
   left: 50%;
@@ -45,8 +45,8 @@ li {
 input {
   width: 70%;
   height: 35px;
-	border: 1px solid #dedede;
-	padding-left: 10px;
+  border: 1px solid #dedede;
+  padding-left: 10px;
 }
 
 button {
