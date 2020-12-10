@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <title>vue-todolist</title>
+  </head>
+  <body>
+    <div id="root">
+      <form v-on:submit.prevent="addNewTodo">
+        <input v-model="newTodoItem" placeholder="What do you need to do?">
+        <button>Add</button>
+      </form>
+      <ul>
+        <li is="todo-item" v-for="(todo, index) in items" v-bind:title="todo.title" v-on:remove="items.splice(index, 1)">
+        </li>
+      </ul>
+    </div>
+    <script src="js/script.js" charset="utf-8"></script>
+  </body>
+</html>

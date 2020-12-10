@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Nunito', sans-serif;
+
+  width: 700px;
+  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm30-eye-19-a-wood_1_2.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=fc46e4c6a94fc3fade274fa6ad249f67);
+  background-size: cover;
+}
+
+#root{
+  width: 50%;
+	margin: 1em auto 3em;
+	border: 1px solid #efefef;
+  position: absolute;
+  top:35%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  box-shadow:  4px 4px 8px 0px rgba(51, 53, 50, 0.83);
+}
+
+ul {
+  list-style:none;
+}
+
+form,li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	list-style-type: none;
+	padding: 10px;
+	border-bottom: 1px solid #efefef;
+	background-color: #E7E8EB;
+}
+
+li {
+  background-color: rgba(148, 111, 102,0.8);
+  color: #202020;
+}
+
+input {
+  width: 70%;
+  height: 35px;
+	border: 1px solid #dedede;
+	padding-left: 10px;
+}
+
+button {
+	width: 80px;
+	height: 38px;
+	cursor: pointer;
+	font-size: 14px;
+  border: 1px solid #bbb;
+  background-color: #FFFFFF;
+}
