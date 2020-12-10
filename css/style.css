@@ -23,10 +23,6 @@ body {
   box-shadow:  4px 4px 8px 0px rgba(51, 53, 50, 0.83);
 }
 
-ul {
-  list-style:none;
-}
-
 form,li {
   display: flex;
   align-items: center;
