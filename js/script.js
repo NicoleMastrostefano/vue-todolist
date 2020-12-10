@@ -25,8 +25,5 @@ var app = new Vue({
       })
        this.newTodoItem = ''
     },
-    removeTodo: function(index) {
-     this.todos.splice(index,1);
-    },
   }
 })
